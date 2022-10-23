@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+header {
+  background: linear-gradient(to right,#999, #ccc);
+  padding: 1em 0;
+}
+
+header div {  
+  display: flex;
+  align-items: center;
+}
+
+.header--icon {
+  width: 3rem;
+}
+
+.header--title {
+  margin-right: auto;
+  margin-left: 0.5em;
+}
+
+.header--title,
+.header--subtitle {
+  font-size: 1.2rem;
+}
+
+/* Meme */
+
+main {
+  margin: 2rem 0;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 2px solid #d5d4d8;  
+  margin-bottom: 1em;
+}
+
+input,
+button {
+  border-radius: 5px;
+  padding: 1em;
+}
+
+button {
+  border: none;
+  background: linear-gradient(to right,#999, #ccc);
+  cursor: pointer;
+}
